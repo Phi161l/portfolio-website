@@ -145,3 +145,52 @@ h2 {
   color: #BBBBBB;
 }
 
+
+
+/* Projects Section */
+.projects {
+  background-color: #1F1F1F;
+}
+
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background-color: #2A2A2A;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.project-card h3 {
+  font-size: 1.8rem;
+  color: #D4AF37; 
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 1.1rem;
+  color: #CCCCCC;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #00ADB5;
+  transition: color 0.3s ease;
+}
+
+.project-card a:hover {
+  color: #FFD369;
+}   
+
