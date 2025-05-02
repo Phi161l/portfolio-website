@@ -194,3 +194,77 @@ h2 {
   color: #FFD369;
 }   
 
+
+
+
+/* Contact Section */
+.contact {
+  background-color: #1F1F1F;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #FFD369;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact-intro {
+  color: #EEEEEE;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 1.1rem;
+  color: #EEEEEE;
+  align-items: center;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-list li i {
+  font-size: 1.3rem;
+  color: #00ADB5;
+  transition: transform 0.3s ease;
+}
+
+.contact-list li a {
+  color: #00ADB5;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-list li:hover i {
+  transform: scale(1.2);
+  color: #FFD369;
+}
+
+.contact-list li a:hover {
+  color: #FFD369;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #111111;
+  color: #EEEEEE;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer p {
+  font-size: 1rem;
+}
+
