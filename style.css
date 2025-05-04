@@ -114,11 +114,12 @@ h2 {
 }
 
 .skill-list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr; /* Default to 1 column */
+  gap: 30px;
 }
+
+
 
 .skill-item {
   background-color: #2A2A2A;
@@ -307,5 +308,18 @@ h2 {
 
   .project-card a {
     font-size: 0.95rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .skill-list {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets and up */
+  }
+}
+
+@media (min-width: 1024px) {
+  .skill-list {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on wider screens */
   }
 }
